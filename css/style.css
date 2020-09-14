@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+            
+            
+            
+            
+            
+body{
+    font-family: 'InfinitySans-RegularA1';
+}
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+}
+.logo img{
+    width: 250px;
+    margin: -10px 0 0 35px;
+}
+.top_menu ul{
+    float: right;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+.top_menu ul li{
+    float: left;
+    margin-left: 30px;
+    
+}
+.top_menu ul li a{
+    font-size:18px;
+}
+
+#content .banner_video{
+    width: 100%;
+    position: relative;
+}
+#content .banner_video::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+#content .banner_video video{
+    width: 100%;
+    height: 100%;
+}
+#content .banner_video h3{
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+#content .banner_video h3 span{
+    color: rgb(0, 174, 255);
+}
+
+.com_history{
+    height: 2000px;
+}

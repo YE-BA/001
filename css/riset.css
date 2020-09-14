@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* reset */
+
+body, h1, h2, h3, p, div, section, aside,
+header, footer, nav, ul, li
+{ margin: 0; padding: 0; }
+body { color: #222328; }
+ul, li { list-style: none; }
+a { color: #222328; text-decoration: none; }
+img { vertical-align: top; }
+.clear::after { content: ""; display: block; clear: both; }
+
+header, div, footer, section, aside, nav, ul, li{
+    border: 0px solid red;
+}
